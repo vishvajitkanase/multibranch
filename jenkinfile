@@ -8,10 +8,6 @@ pipeline {
             }
         }
 
-      stage('shell'){
-        steps{
-            sh ' pwd '
-        }
-      }
+    
   }
 }
